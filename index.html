@@ -18,6 +18,18 @@
     </nav>
   </header>
 
+  <!-- Add this below the header inside <body> -->
+<section class="filters">
+  <input type="text" id="searchInput" placeholder="Search blog posts..." />
+  <select id="categoryFilter">
+    <option value="all">All Categories</option>
+    <option value="Tech">Tech</option>
+    <option value="Lifestyle">Lifestyle</option>
+    <option value="Tips">Tips</option>
+    <!-- Add your categories here -->
+  </select>
+</section>
+
   <main class="blog-grid" id="blog-container">
     <!-- Blog posts will be injected here by JavaScript -->
   </main>
