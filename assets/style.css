@@ -62,3 +62,43 @@ footer {
   width: 250px;
   max-width: 90%;
 }
+
+.comment-section {
+  padding: 20px;
+  background: #f4f4f4;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.comment-section h2 {
+  margin-bottom: 10px;
+}
+
+.comment-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.comment-section input,
+.comment-section textarea {
+  padding: 10px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.comment-section button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.comment {
+  margin-top: 15px;
+  padding: 10px;
+  background: #fff;
+  border-left: 4px solid #007bff;
+  border-radius: 5px;
+}
